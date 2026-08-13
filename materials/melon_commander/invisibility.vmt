@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+  $basetexture    "models/debug/debugwhite"
+  $additive       1
+	$nolod 			    1
+
+  Proxies
+  {
+    Sine
+    {
+      sineperiod  2
+      sinemin     0.7
+      sinemax     1.3
+      resultVar   $color2
+    }
+  }
+}

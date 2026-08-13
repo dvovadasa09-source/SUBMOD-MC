@@ -1,0 +1,6 @@
+"AddonInfo"
+{
+	"name" "Melon Commander: RTS"
+	"author_name" "Author Name"
+	"info" "{"title":"Melon Commander: RTS","type":"gamemode","tags":["fun","build","scenic"],"ignore":["lua/melon_commander/shared/expansions/base/units/!style-guide.txt"]}"
+}

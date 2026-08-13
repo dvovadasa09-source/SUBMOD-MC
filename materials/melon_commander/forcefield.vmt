@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+  $basetexture    "models/props_combine/stasisshield_sheet"
+  $additive       1
+	$nolod 			    1
+
+  Proxies
+  {
+    Sine
+    {
+      sineperiod  3
+      sinemin     0.7
+      sinemax     1.2
+      resultVar   $color2
+    }
+
+    "TextureScroll"
+    {
+      "texturescrollvar" "$basetexturetransform"
+      "texturescrollrate" 0.03
+      "texturescrollangle" 0.0
+    }
+  }
+}
